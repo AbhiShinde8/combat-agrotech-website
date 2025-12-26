@@ -33,5 +33,5 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist         # Vite build output
           server-dir: /public_html/  # Hostinger root folder
-          overwrite: true
+         
           
