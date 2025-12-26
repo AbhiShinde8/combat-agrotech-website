@@ -33,5 +33,6 @@ jobs:
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: ./dist/         # Vite build output
           server-dir: ${{ secrets.FTP_TARGET }} # /public_html/
+          dangerous-clean-slate: true 
          
           
