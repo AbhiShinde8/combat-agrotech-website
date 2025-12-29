@@ -79,7 +79,7 @@ const Navbar: React.FC = () => {
                   to="/admin"
                   className="text-gray-400 hover:text-white text-xs ml-4"
                 >
-                  Abhijit
+                  Abhi
                 </Link>
               )}
             </div>
